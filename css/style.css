@@ -139,7 +139,8 @@ nav {
     display: none;
   }
    
-/* .purple_div  */
+/* ------------------  .purple_div ------------------ */
+
 .purple_div {
   display: flex;
   justify-content: space-between;
@@ -223,7 +224,7 @@ nav {
 }
  
 
-/* .our-process  */
+/* ------------------  .our-process  ------------------ */
 .our-process {
   width: 100vw;
   padding: 2rem 1rem;
@@ -357,7 +358,7 @@ nav {
   left: 14.5rem; 
   }
     
-/* process-2  */
+/* ------------------ process-2 ------------------ */
 /* Main Container */
 .prcess-2 {
 width: 100vw;
@@ -466,7 +467,7 @@ height: .85rem;
   display: none;
 }  
 
-/* what we offer  */
+/* ------------------ what we offer  ------------------ */
 .we-offer {
   width: 100vw;
   background-color: #2E073F;
@@ -571,7 +572,7 @@ span {
 }
 
 
-/* online service  */
+/* ------------------ online service   ------------------ */
   .online-service {
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: #000000;
@@ -678,7 +679,6 @@ span {
   }
    
 /* ------------------ Washing Section ------------------ */
-
 .washing {
 margin: 3.25rem 0;
 height: 10rem; /* 384px */
@@ -773,24 +773,24 @@ margin-bottom: 0.5rem;
 
 .benefit > h1 {
 color: #2E073F;
-font-size: 1.2375rem;
+font-size: 1.1rem;
 font-weight: 500;
 margin-bottom: 3rem;
 }
 
 .benefit-box {
-max-width: 45.3125rem;
+max-width: 15.3125rem;
 margin: 0 auto;
 background-color: #FFFFFF;
 box-shadow: 0 0 1.25rem 0.3125rem rgba(22, 11, 66, 0.2);
 border-radius: 2.625rem;
 display: flex;
+flex-direction: column;
 padding: 1.5rem;
 /* background-color: violet; */
 gap: 1rem;
 margin-bottom: 6.25rem;
 }
-
 .benefit-box-left,
 .benefit-box-mid,
 .benefit-box-right {
@@ -806,31 +806,37 @@ justify-content: space-between;
 .box-left-low,
 .box-mid-low {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
 padding: 1rem;
+gap: 2rem;
 }
+
 .benefit-box-right {
 width: 33.34%;
 }
 
 .benefit-box img {
-width: 2rem;
+width: 4rem;
 height: auto;
 margin-bottom: 2rem;
 }
 
+.box-left-top img{
+  width: 2rem;
+}
 .benefit-box span {
 color: #2A186B;
 font-size: 0.65rem;
 font-weight: 500;
 text-align: center;
 line-height: 1.25;
+margin-bottom: 1.5rem;
 }
 
 .benefit-box button {
 height: 2rem;
-width: 5.9375rem;
+width: 6.9375rem;
 background-color: #2E073F;
 border-radius: 3rem;
 border: none;
@@ -838,9 +844,10 @@ margin: 2rem auto 0 auto;
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 1rem;
+margin-left:3rem;
 cursor: pointer;
 margin-bottom: 4rem;
+gap: 1rem;
 }
 
 .benefit-box button span {
@@ -848,43 +855,16 @@ color: #FFFFFF;
 font-size: 0.7rem;
 font-weight: 400;
 position: relative;
-top: -0.125rem;
+top: 0.75rem;
 }
 
 .benefit-box button i {
 font-size: 0.7rem;
 position: relative;
-top: -0.125rem;
+top: 0.125rem;
 }
 
-/* testimonial  */
-/* .testimonial{
-  height: 742px;
-  width: 100%;
-  background-color: #ebd3f9;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-
-  h2{
-      width: 199px;
-      height: 20px;
-      margin-left: 99px;
-      color: #7A1CAC;
-      position: relative;
-      top: 150px;
-      font-size: 20px;
-      font-weight: 500;
-      letter-spacing: 1px;
-  }
-  h1{
-      color: #170F49;
-      height: 46px;
-      width: 500px;
-      margin-left: 100px;
-      margin-top: 165px;
-      font-weight: 500;
-      font-size: 34px;
-  }
-} */
+/* ------------------ testimonial ------------------ */
 .testimonial {
   height: 552px;
   width: 100%;
