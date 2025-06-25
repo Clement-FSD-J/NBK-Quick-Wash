@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+}
+/* body  */
+body{
+    width: 100vw;
+    color: #FFFFFF;
+} 
+
+@media (max-width: 474px){
+nav {
+    height: 4.25rem;
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 2;
+    background-color: yellowgreen;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .nav_left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav_right {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .nav_left a {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .nav_right a {
+    font-size: 0.6rem;
+    font-weight: 300;
+    position: relative;
+  }
+  
+  .nav_right a:hover {
+    color: #AD49E1;
+  }
+  
+  .under::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #AD49E1;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .under:hover::after {
+    width: 100%;
+  }
+  
+  /* Hamburger Styles (Mobile only) */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+    width: 1.75rem;
+    height: 2rem;
+    gap: 5px;
+    margin-left: 1rem;
+  }
+  
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Slide-in menu */
+  .nav_menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 75%;
+    background-color: #FFFFFF;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    transition: right 0.3s ease-in-out;
+    z-index: 9999;
+  }
+  
+  .nav_menu a {
+    margin: 0.75rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+  }
+  
+  .nav_menu a:hover {
+    color: #AD49E1;
+  }
+  .nav_menu.show {
+    right: 0;
+  }
+  
+  /* Close Button */
+  .close-btn {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #AD49E1;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+  }
+  .desktop-only {
+    display: none;
+  }
+  /*-------------- about us ----------------*/
+  .about{
+    width: 100%;
+    background-image: url("../images/About-page/about-top-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1B002ACC;
+    padding: 2rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.about h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+.about hr {
+    margin: 0.25rem auto; 
+    width: 4rem;
+    border: none;
+    border-top: 2px solid #fff;
+}
+}
+
+@media (min-width: 475px) {
+    nav {
+        height: 4.25rem; /* 100px */
+        width: 100vw;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+      }
+    
+      nav a {
+        text-decoration: none;
+        color: #000000;
+      }
+    
+      .nav_left{
+        width: 40%;
+        display: flex;
+        align-items: center;
+      }
+      .nav_right {
+        width: 60%;
+        display: flex;
+        align-items: center;
+      }
+    
+      .nav_left a {
+        font-size: 0.8rem; /* ~14.4px */
+        font-weight: 600;
+        line-height: 100%;
+        height: 1.875rem; /* 30px */
+        margin-top: 1rem;
+      }
+    
+      .nav_right {
+        justify-content: flex-end;
+      }
+    
+      .nav_right a {
+        /* margin-left: 0.05rem; */
+        font-size: 0.6rem; /* ~10.4px */
+        font-weight: 300;
+        position: relative;
+      }
+    
+      .nav_right a:hover {
+        color: #AD49E1;
+      }
+    
+      .under::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #AD49E1;
+        transition: width 0.3s ease-in-out;
+      }
+    
+      .under:hover::after {
+        width: 100%;
+      }
+    
+      /* Optional: Hide mobile nav elements if any */
+      .hamburger,
+      .nav_menu {
+        display: none !important;
+      }
+    
+      .desktop-only {
+        display: flex;
+        gap: 0.7rem;
+      }
+    /*-------------- about us ----------------*/
+    .about{
+        width: 100%;
+        background-image: url("../images/About-page/about-top-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #1B002ACC;
+        padding: 3rem;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .about h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .about hr {
+        margin: 0.25rem auto; 
+        width: 4rem;
+        border: none;
+        border-top: 2px solid #fff;
+    }
+}
+
+@media (min-width: 640px) {
+    nav {
+        height: 5.25rem; /* 100px */
+        width: 100vw;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+      }
+    
+      nav a {
+        text-decoration: none;
+        color: #000000;
+      }
+    
+      .nav_left,
+      .nav_right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+      }
+    
+      .nav_left a {
+        font-size: 0.9rem; /* ~14.4px */
+        font-weight: 600;
+        line-height: 100%;
+        height: 1.875rem; /* 30px */
+        margin-top: 1rem;
+      }
+    
+      .nav_right {
+        justify-content: flex-end;
+      }
+    
+      .nav_right a {
+        margin-left: 0.3rem;
+        font-size: 0.65rem; /* ~10.4px */
+        font-weight: 300;
+        position: relative;
+      }
+    
+      .nav_right a:hover {
+        color: #AD49E1;
+      }
+    
+      .under::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #AD49E1;
+        transition: width 0.3s ease-in-out;
+      }
+    
+      .under:hover::after {
+        width: 100%;
+      }
+    
+      /* Optional (for larger breakpoints): hide mobile menu and hamburger */
+      .hamburger,
+      .nav_menu {
+        display: none !important;
+      }
+    
+      .desktop-only {
+        display: flex;
+        gap: 0.7rem;
+      }
+    /*-------------- about us ----------------*/
+    .about{
+        width: 100%;
+        background-image: url("../images/About-page/about-top-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #1B002ACC;
+        padding: 5rem;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .about h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 35px;
+    }
+    .about hr {
+        margin: 0.5rem auto; 
+        width: 5rem;
+        border: none;
+        border-top: 2px solid #fff;
+    }
+}
+
+@media (min-width: 768px) {
+    nav {
+        height: 5.25rem; /* 100px */
+        width: 100vw;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+      }
+    
+      nav a {
+        text-decoration: none;
+        color: #000000;
+      }
+    
+      .nav_left,
+      .nav_right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+      }
+    
+      .nav_left a {
+        font-size: 1rem; /* 16px */
+        font-weight: 600;
+        line-height: 100%;
+        height: 1.875rem; /* 30px */
+        margin-top: 1rem;
+      }
+    
+      .nav_right {
+        justify-content: flex-end;
+      }
+    
+      .nav_right a {
+        margin-left: 0.2rem;
+        font-size: 0.75rem;
+        font-weight: 300;
+        position: relative;
+      }
+    
+      .nav_right a:hover {
+        color: #AD49E1;
+      }
+    
+      .under::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #AD49E1;
+        transition: width 0.3s ease-in-out;
+      }
+    
+      .under:hover::after {
+        width: 100%;
+      }
+    
+      /* Optional: Hide mobile menu and hamburger icon on desktop */
+      .hamburger,
+      .nav_menu {
+        display: none !important;
+      }
+    
+      .desktop-only {
+        display: flex;
+        gap: 1rem;
+      }
+    
+      /*-------------- about us ----------------*/
+    .about{
+        width: 100%;
+        background-image: url("../images/About-page/about-top-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #1B002ACC;
+        padding: 7rem;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .about h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 45px;
+    }
+    .about hr {
+        margin: 1rem auto; /* Adds vertical spacing and centers it */
+        width: 8rem;
+        border: none;
+        border-top: 2px solid #fff;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav {
+      height: 6.25rem; /* 100px */
+      width: 100vw;
+      background-color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+    }
+  
+    nav a {
+      text-decoration: none;
+      color: #000000;
+    }
+  
+    .nav_left,
+    .nav_right {
+      width: 50%;
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav_left a {
+      font-size: 1.25rem; /* 20px */
+      font-weight: 600;
+      line-height: 100%;
+      height: 1.875rem; /* 30px */
+    }
+  
+    .nav_right {
+      justify-content: flex-end;
+    }
+  
+    .nav_right a {
+        margin-left: 0.3rem;
+      font-size: 1rem;
+      font-weight: 300;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+  
+    /* Hover effects */
+    .nav_right a:hover {
+      color: #AD49E1;
+    }
+  
+    .under::after {
+      content: "";
+      width: 0%;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: #AD49E1;
+      transition: width 0.3s ease-in-out;
+    }
+  
+    .under:hover::after {
+      width: 100%;
+    }
+  
+    /* Hide hamburger and mobile menu */
+    .hamburger {
+      display: none;
+    }
+  
+    .nav_menu {
+      display: none !important;
+    }
+  
+    .desktop-only {
+      display: flex;
+      gap: 1rem;
+    }
+
+
+    /*-------------- about us ----------------*/
+    .about{
+        width: 100%;
+        background-image: url("../images/About-page/about-top-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #1B002ACC;
+        padding: 8rem;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .about h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    .about hr {
+        margin: 1rem auto; /* Adds vertical spacing and centers it */
+        width: 10rem;
+        border: none;
+        border-top: 2px solid #fff;
+    }
+}
