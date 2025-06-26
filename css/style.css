@@ -1935,33 +1935,6 @@ footer {
 }
 
   /* testimonial  */
-  /* .testimonial{
-      height: 742px;
-      width: 100%;
-      background-color: #ebd3f9;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-  
-      h2{
-          width: 199px;
-          height: 20px;
-          margin-left: 99px;
-          color: #7A1CAC;
-          position: relative;
-          top: 150px;
-          font-size: 20px;
-          font-weight: 500;
-          letter-spacing: 1px;
-      }
-      h1{
-          color: #170F49;
-          height: 46px;
-          width: 500px;
-          margin-left: 100px;
-          margin-top: 165px;
-          font-weight: 500;
-          font-size: 34px;
-      }
-  } */
   .testimonial {
       height: 552px;
       width: 100%;
@@ -3030,33 +3003,6 @@ footer {
 }
 
   /* testimonial  */
-  /* .testimonial{
-      height: 742px;
-      width: 100%;
-      background-color: #ebd3f9;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-  
-      h2{
-          width: 199px;
-          height: 20px;
-          margin-left: 99px;
-          color: #7A1CAC;
-          position: relative;
-          top: 150px;
-          font-size: 20px;
-          font-weight: 500;
-          letter-spacing: 1px;
-      }
-      h1{
-          color: #170F49;
-          height: 46px;
-          width: 500px;
-          margin-left: 100px;
-          margin-top: 165px;
-          font-weight: 500;
-          font-size: 34px;
-      }
-  } */
   .testimonial {
       height: 592px;
       width: 100%;
@@ -4128,34 +4074,8 @@ footer {
   top: -0.125rem;
 }
 
-  /* testimonial  */
-  /* .testimonial{
-      height: 742px;
-      width: 100%;
-      background-color: #ebd3f9;
-      font-family: 'Plus Jakarta Sans', sans-serif;
   
-      h2{
-          width: 199px;
-          height: 20px;
-          margin-left: 99px;
-          color: #7A1CAC;
-          position: relative;
-          top: 150px;
-          font-size: 20px;
-          font-weight: 500;
-          letter-spacing: 1px;
-      }
-      h1{
-          color: #170F49;
-          height: 46px;
-          width: 500px;
-          margin-left: 100px;
-          margin-top: 165px;
-          font-weight: 500;
-          font-size: 34px;
-      }
-  } */
+   /* testimonial  */
   .testimonial {
       height: 592px;
       width: 100%;
@@ -4279,13 +4199,13 @@ footer {
     }
     
   
-    /* think  */
+  /* think  */
     .container {
       display: flex;
       justify-content: center;
       align-items: flex-start;
       gap: 3.25rem; /* 100px */
-      padding: 3.25rem; /* 100px */
+      padding: 3.25rem 2rem; /* 100px */
       font-family: 'Plus Jakarta Sans', sans-serif;
     }
     
@@ -4345,8 +4265,9 @@ footer {
     }
     
     .image-box img {
-      width: 17.625rem; /* 410px */
+      width: 13.625rem; /* 410px */
       border-radius: 11.25rem 11.25rem 0 0;
+      margin-top: 4rem;
       background-color: #FFE1B4;
     }
   
@@ -4354,7 +4275,7 @@ footer {
     footer {
       width: 100%;
       background-color: #19191A;
-      padding: 4rem 1rem; /* spacing inside the footer */
+      padding: 2rem 1rem; /* spacing inside the footer */
       font-family: 'Plus Jakarta Sans', sans-serif;
       color: #FFFFFF;
       text-align: center;
@@ -4366,15 +4287,15 @@ footer {
     }
     
     .footer-content h3 {
-      font-size: 1.3125rem; /* 21px */
+      font-size: 1rem; /* 21px */
       font-weight: 700;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
     
     .footer-nav {
       list-style: none;
       padding: 0;
-      margin: 0 0 2rem 0;
+      margin: 0 0 1rem 0;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -4383,7 +4304,7 @@ footer {
     
     .footer-nav li a {
       text-decoration: none;
-      font-size: 0.875rem; /* 14px */
+      font-size: 0.675rem; /* 14px */
       font-weight: 400;
       color: #FFFFFF;
       transition: color 0.3s ease;
@@ -4394,10 +4315,10 @@ footer {
     }
     
     .footer-content p {
-      font-size: 0.875rem; /* 14px */
+      font-size: 0.575rem; /* 14px */
       line-height: 1.5rem; /* 24px */
       color: #DDDDDD;
-      margin-bottom: 2.5rem;
+      margin-bottom: 1.5rem;
       padding: 0 1rem;
     }
     
@@ -4409,7 +4330,7 @@ footer {
     
     .footer-icons li {
       list-style: none;
-      font-size: 1rem;
+      font-size: 0.8rem;
       cursor: pointer;
       transition: transform 0.3s ease;
     }
@@ -5230,33 +5151,6 @@ footer {
   }
   
     /* testimonial  */
-    /* .testimonial{
-        height: 742px;
-        width: 100%;
-        background-color: #ebd3f9;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-    
-        h2{
-            width: 199px;
-            height: 20px;
-            margin-left: 99px;
-            color: #7A1CAC;
-            position: relative;
-            top: 150px;
-            font-size: 20px;
-            font-weight: 500;
-            letter-spacing: 1px;
-        }
-        h1{
-            color: #170F49;
-            height: 46px;
-            width: 500px;
-            margin-left: 100px;
-            margin-top: 165px;
-            font-weight: 500;
-            font-size: 34px;
-        }
-    } */
     .testimonial {
         height: 742px;
         width: 100%;
