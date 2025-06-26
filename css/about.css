@@ -1442,77 +1442,7 @@ footer {
         top: -1rem;
       }
 
-      /* think  */
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 3.25rem; /* 100px */
-      padding: 3.25rem 2rem; /* 100px */
-      font-family: 'Plus Jakarta Sans', sans-serif;
-    }
     
-    /* FAQ Box */
-    .faq-box {
-      background: #FFFFFF;
-      border-radius: 0.75rem; /* 12px */
-      box-shadow: 0 0.3125rem 1.5625rem rgba(0, 0, 0, 0.1); /* 5px 25px */
-      padding: 1.875rem; /* 30px */
-      width: 45.375rem; /* 726px */
-      height: auto; /* Let content decide height */
-    }
-    
-    /* FAQ Item */
-    .faq-item {
-      border-bottom: 0.03125rem solid #D9DBE9;
-      padding: 2rem 0;
-    }
-    
-    /* FAQ Header */
-    .faq-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer;
-    }
-    
-    .faq-header h3 {
-      font-size: 0.875rem;
-      color: #170F49;
-      font-weight: 400;
-      flex: 1;
-    }
-    
-    .icon {
-      font-size: 1.25rem;
-      color: #7A1CAC;
-      margin-left: 0.625rem;
-      transition: 0.3s ease;
-    }
-    
-    .answer {
-      font-size: 0.625rem;
-      color: #6F6C90;
-      margin-top: 0.625rem;
-      line-height: 0.875rem;
-      display: none;
-      transition: all 0.3s ease;
-    }
-    
-    /* Image Box */
-    .image-box {
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      margin-top: 5rem;
-    }
-    
-    .image-box img {
-      width: 13.625rem; /* 410px */
-      border-radius: 11.25rem 11.25rem 0 0;
-      margin-top: 4rem;
-      background-color: #FFE1B4;
-    }
 
     /* testimonial  */
   .testimonial {
