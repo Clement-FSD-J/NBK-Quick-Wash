@@ -290,7 +290,7 @@ nav {
       top: 0;
       height: 15px;
       width: 15px;
-      background-color: #eee;
+      /* background-color: #eee; */
       border: 2px solid #ccc;
       border-radius: 4px;
       font-size: 12px;
@@ -320,6 +320,7 @@ nav {
       padding: 0.5rem 0.5rem;
       border-radius: 50px;
       color: #FFFFFF;
+      border: 2px solid #19191A;
       background-color: rgb(19, 19, 19);
       box-shadow: 0 0 10px rgba(0,19,19,19);
       margin: auto auto;
@@ -623,7 +624,7 @@ footer {
       top: 0;
       height: 15px;
       width: 15px;
-      background-color: #eee;
+      /* background-color: #eee; */
       border: 2px solid #ccc;
       border-radius: 4px;
       font-size: 11px;
@@ -653,6 +654,7 @@ footer {
       padding: 1rem 1rem;
       border-radius: 50px;
       color: #FFFFFF;
+      border: 2px solid #19191A;
       background-color: rgb(19, 19, 19);
       box-shadow: 0 0 10px rgba(0,19,19,19);
 
@@ -949,7 +951,7 @@ footer {
       top: 0;
       height: 16px;
       width: 16px;
-      background-color: #eee;
+      /* background-color: #eee; */
       border: 2px solid #ccc;
       border-radius: 4px;
       font-size: 13px;
@@ -979,6 +981,7 @@ footer {
       padding: 1rem 1.5rem;
       border-radius: 50px;
       color: #FFFFFF;
+      border: 2px solid #19191A;
       background-color: rgb(19, 19, 19);
       box-shadow: 0 0 10px rgba(0,19,19,19);
 
@@ -1275,7 +1278,7 @@ footer {
       top: 0;
       height: 16px;
       width: 16px;
-      background-color: #eee;
+      /* background-color: #eee; */
       border: 2px solid #ccc;
       border-radius: 4px;
       font-size: 13px;
@@ -1307,7 +1310,7 @@ footer {
       color: #FFFFFF;
       background-color: rgb(19, 19, 19);
       box-shadow: 0 0 10px rgba(0,19,19,19);
-
+      border: 2px solid #19191A;
       float: right;
       margin-top: 0.5rem;
     }
@@ -1606,7 +1609,7 @@ footer {
       top: 0;
       height: 18px;
       width: 18px;
-      background-color: #eee;
+      /* background-color: #eee; */
       border: 2px solid #ccc;
       border-radius: 4px;
       font-size: 14px;
@@ -1636,6 +1639,7 @@ footer {
       padding: 1rem 3.5rem;
       border-radius: 50px;
       color: #FFFFFF;
+      border: 2px solid #19191A;
       background-color: rgb(19, 19, 19);
       box-shadow: 0 0 10px rgba(0,19,19,19);
 
